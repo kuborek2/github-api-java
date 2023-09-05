@@ -1,10 +1,10 @@
-package jakub.krezolek.githubapi.dto;
+package jakub.krezolek.githubapi.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 
 @Getter
-public class BranchesResponseDTO {
+public class BranchesResponseJson {
     public String name;
     public Commit commit;
     @JsonProperty("protected")

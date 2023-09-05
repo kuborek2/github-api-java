@@ -9,8 +9,6 @@ public class GithubApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GithubApiApplication.class, args);
-		RequestService requestService = new RequestService();
-		requestService.RequestRepositoriesByName("kuborek2");
 	}
 
 }

@@ -1,4 +1,4 @@
-package jakub.krezolek.githubapi.dto;
+package jakub.krezolek.githubapi.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 @Getter
-public class RepositoryResponseDTO{
+public class RepositoryResponseJson {
     public int id;
     public String node_id;
     public String name;
